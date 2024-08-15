@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <title>Get a Quote - CRM CREATIONS</title>
+    <style>
+        /* Styling for the header with the logo above the name */
+        .header-container {
+            text-align: center;
+            position: relative;
+        }
+
+        .logo {
+            width: 10%; /* Smaller size */
+            height: auto;
+            margin-bottom: 10px; /* Space between logo and name */
+        }
+
+        h1 {
+            font-size: 36px;
+            color: #333;
+            margin: 0; /* Remove default margin */
+        }
+
+        p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header-container">
+        <!-- Logo -->
+        <img src="images/crm_logo.jpg" alt="CRM CREATIONS Logo" class="logo">
+        <h1>CRM CREATIONS</h1>
+        <p>Your Trusted Partner for Professional Printing and Branding Services</p>
+        <hr>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <li><a href="Homepage.html">Home</a></li>
+        <li><a href="AboutUs.html">About Us</a></li>
+        <li><a href="Gallery.html">Gallery</a></li>
+        <li><a href="ContactUs.html">Contact</a></li>
+        <li><a href="Quote.html">Get a Quote</a></li>
+            
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <section>
+            <h2>Get a Quote</h2>
+            <p>Fill out the form below to receive a customized quote for your project. We will get back to you as soon as possible with the details.</p>
+            <h3> Our quotes are based on the following?</h3>
+            <p>The surface area to be covered for instance, size of glass panel/s<br>
+                The detail in your design/logo<br>
+                The distance from ground level for application<br>
+                The location of the site</p>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="phone">Phone:</label><br>
+                <input type="tel" id="phone" name="phone"><br><br>
+
+                <label for="service">Service Required:</label><br>
+                <select id="service" name="service" required>
+                    <option value="">Select a service</option>
+                    <option value="wallpaper">Wallpaper Printing & Installation</option>
+                    <option value="vinyl">Frosted Vinyl / Sandblast</option>
+                    <option value="vehicle">Vehicle Branding</option>
+                </select><br><br>
+
+                <label for="details">Project Details:</label><br>
+                <textarea id="details" name="details" rows="5" required></textarea><br><br>
+
+                <label for="budget">Estimated Budget:</label><br>
+                <input type="text" id="budget" name="budget"><br><br>
+
+                <button type="submit">Request Quote</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <hr>
+        <p> 2024 CRM CREATIONS.</p>
+    </footer>
+
+</body>
+</html>
